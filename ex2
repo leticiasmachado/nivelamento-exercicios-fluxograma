@@ -1,1 +1,166 @@
-<mxfile host="app.diagrams.net" modified="2021-05-14T18:46:12.472Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36 OPR/76.0.4017.123" version="14.6.3" etag="hGt9l9df1nogMHDiFro8" type="github"><diagram id="_cxfyCDlRJngC0TDuoNQ">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-05-14T18:59:44.376Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36 OPR/76.0.4017.123" etag="xu24ilgXjd7YDjHq0nAg" version="14.6.3" type="github">
+  <diagram id="_cxfyCDlRJngC0TDuoNQ" name="Page-1">
+    <mxGraphModel dx="828" dy="452" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="zyboHp-T1shdAhEvaJQZ-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zyboHp-T1shdAhEvaJQZ-1" target="zyboHp-T1shdAhEvaJQZ-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zyboHp-T1shdAhEvaJQZ-1" value="Início" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="585" y="20" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zyboHp-T1shdAhEvaJQZ-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zyboHp-T1shdAhEvaJQZ-3" target="zyboHp-T1shdAhEvaJQZ-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zyboHp-T1shdAhEvaJQZ-3" value="int n1, n2, opcao&lt;br&gt;float resultado" style="shape=internalStorage;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="90" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zyboHp-T1shdAhEvaJQZ-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zyboHp-T1shdAhEvaJQZ-5" target="zyboHp-T1shdAhEvaJQZ-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zyboHp-T1shdAhEvaJQZ-5" value="n1&lt;br&gt;n2&lt;br&gt;opcao" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="585" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zyboHp-T1shdAhEvaJQZ-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zyboHp-T1shdAhEvaJQZ-7" target="zyboHp-T1shdAhEvaJQZ-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="745" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zyboHp-T1shdAhEvaJQZ-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zyboHp-T1shdAhEvaJQZ-7" target="zyboHp-T1shdAhEvaJQZ-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zyboHp-T1shdAhEvaJQZ-7" value="opcao == 1" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="605" y="320" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zyboHp-T1shdAhEvaJQZ-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zyboHp-T1shdAhEvaJQZ-9" target="zyboHp-T1shdAhEvaJQZ-40">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="745" y="885" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zyboHp-T1shdAhEvaJQZ-9" value="resultado=n1+n2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="685" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zyboHp-T1shdAhEvaJQZ-12" value="V" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="710" y="340" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="zyboHp-T1shdAhEvaJQZ-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zyboHp-T1shdAhEvaJQZ-13" target="zyboHp-T1shdAhEvaJQZ-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zyboHp-T1shdAhEvaJQZ-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zyboHp-T1shdAhEvaJQZ-13" target="zyboHp-T1shdAhEvaJQZ-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zyboHp-T1shdAhEvaJQZ-13" value="opcao==2" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="420" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zyboHp-T1shdAhEvaJQZ-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zyboHp-T1shdAhEvaJQZ-15" target="zyboHp-T1shdAhEvaJQZ-37">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="590" y="835" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zyboHp-T1shdAhEvaJQZ-15" value="resultado = n1-n2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zyboHp-T1shdAhEvaJQZ-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zyboHp-T1shdAhEvaJQZ-17" target="zyboHp-T1shdAhEvaJQZ-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zyboHp-T1shdAhEvaJQZ-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zyboHp-T1shdAhEvaJQZ-17" target="zyboHp-T1shdAhEvaJQZ-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zyboHp-T1shdAhEvaJQZ-17" value="opcao==3" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="510" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zyboHp-T1shdAhEvaJQZ-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zyboHp-T1shdAhEvaJQZ-19" target="zyboHp-T1shdAhEvaJQZ-34">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="460" y="805" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zyboHp-T1shdAhEvaJQZ-19" value="resultado = n1*n2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zyboHp-T1shdAhEvaJQZ-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zyboHp-T1shdAhEvaJQZ-23" target="zyboHp-T1shdAhEvaJQZ-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zyboHp-T1shdAhEvaJQZ-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zyboHp-T1shdAhEvaJQZ-23" target="zyboHp-T1shdAhEvaJQZ-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zyboHp-T1shdAhEvaJQZ-23" value="n2==0" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="600" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zyboHp-T1shdAhEvaJQZ-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zyboHp-T1shdAhEvaJQZ-25" target="zyboHp-T1shdAhEvaJQZ-29">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="315" y="765" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zyboHp-T1shdAhEvaJQZ-25" value="&quot;Impossivel&quot;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="670" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zyboHp-T1shdAhEvaJQZ-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zyboHp-T1shdAhEvaJQZ-27" target="zyboHp-T1shdAhEvaJQZ-29">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="100" y="765" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zyboHp-T1shdAhEvaJQZ-27" value="resultado=n1/n2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zyboHp-T1shdAhEvaJQZ-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zyboHp-T1shdAhEvaJQZ-29" target="zyboHp-T1shdAhEvaJQZ-34">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="220" y="805" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zyboHp-T1shdAhEvaJQZ-29" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="195" y="740" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="zyboHp-T1shdAhEvaJQZ-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.04;entryY=0.64;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="zyboHp-T1shdAhEvaJQZ-34" target="zyboHp-T1shdAhEvaJQZ-37">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="350" y="842" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zyboHp-T1shdAhEvaJQZ-34" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="325" y="780" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="zyboHp-T1shdAhEvaJQZ-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zyboHp-T1shdAhEvaJQZ-37" target="zyboHp-T1shdAhEvaJQZ-40">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="480" y="885" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zyboHp-T1shdAhEvaJQZ-37" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="455" y="810" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="zyboHp-T1shdAhEvaJQZ-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zyboHp-T1shdAhEvaJQZ-40" target="zyboHp-T1shdAhEvaJQZ-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zyboHp-T1shdAhEvaJQZ-40" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="620" y="860" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="zyboHp-T1shdAhEvaJQZ-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zyboHp-T1shdAhEvaJQZ-43" target="zyboHp-T1shdAhEvaJQZ-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zyboHp-T1shdAhEvaJQZ-43" value="resultado" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="597.5" y="950" width="95" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zyboHp-T1shdAhEvaJQZ-45" value="Fim" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="585" y="1060" width="120" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
